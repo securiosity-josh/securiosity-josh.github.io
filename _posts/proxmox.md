@@ -1,0 +1,55 @@
+# Installing Proxmox VE and Setup Tutorial
+
+Proxmox Virtual Environment (Proxmox VE) is an open-source server virtualization platform. Below are the steps to install Proxmox VE on a bare-metal server.
+
+Do you need to virtualize something at home? Thinking of building your own Homelab? (The answer is YES).Join me as we install and configure Proxmox VE step-by-step.
+
+## Prerequisites
+
+- 64-bit processor with virtualization support (Intel VT/AMD-V)
+- At least 2 GB RAM (4 GB or more recommended)
+- Storage: 32 GB minimum
+- Bootable USB drive or CD/DVD with Proxmox VE ISO
+
+## Steps
+
+### 1. Download Proxmox VE ISO
+
+- Visit the [Proxmox Downloads page](https://www.proxmox.com/en/downloads).
+- Download the latest Proxmox VE ISO installer.
+
+### 2. Create a Bootable USB
+
+- Use tools like [Rufus](https://rufus.ie/) (Windows) or `dd` (Linux/macOS) to write the ISO to a USB drive.
+
+### 3. Boot from USB
+
+- Insert the USB drive into your server.
+- Boot and select the USB drive as the boot device.
+
+### 4. Install Proxmox VE
+
+- Select **Install Proxmox VE** from the boot menu.
+- Accept the license agreement.
+- Choose the target hard disk for installation.
+- Configure country, time zone, and keyboard layout.
+- Set a password for the root user and provide an email address.
+- Configure network settings (hostname, IP address, etc.).
+
+### 5. Complete Installation
+
+- After installation, remove the USB drive and reboot.
+- Access the Proxmox web interface at:  
+    `https://<your-server-ip>:8006`
+
+- Dont worry about the warning Proxmox runs a self signed certificate just click the advanced drop down and continue. 
+
+### 6. Initial Setup
+
+- Log in with the root account and the password set during installation.
+- Start creating and managing virtual machines or containers.
+
+## References
+
+- [Proxmox VE Documentation](https://pve.proxmox.com/wiki/Main_Page)
+- [Getting Started Guide](https://pve.proxmox.com/wiki/Getting_started_with_Proxmox_VE)
