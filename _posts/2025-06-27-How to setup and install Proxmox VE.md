@@ -1,3 +1,10 @@
+---
+title: Installing Proxmox VE and Setup Tutorial
+date: 2025-06-27 HH:MM:SS +/-TTTT
+categories: [Virtualisation]
+tags: [Proxmox, homelab]     # TAG names should always be lowercase
+---
+
 # Installing Proxmox VE and Setup Tutorial
 
 Proxmox Virtual Environment (Proxmox VE) is an open-source server virtualization platform. Below are the steps to install Proxmox VE on a bare-metal server.
