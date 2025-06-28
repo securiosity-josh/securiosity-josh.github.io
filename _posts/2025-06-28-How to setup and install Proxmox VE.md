@@ -1,9 +1,13 @@
 ---
-title: Installing Proxmox VE and Setup Tutorial
-date: 2025-06-27 HH:MM:SS +/-TTTT
-categories: [Virtualisation]
-tags: [Proxmox, homelab]     # TAG names should always be lowercase
+layout: post
+title: "How to install and setup Proxmox VE"
+date: 2025-06-28 09:00:00 -0500
+categories: virtualisation
+tags: virtualisation self-hosted proxmox
+image:
+  path: /assets/img/headers/proxmox.webp
 ---
+
 
 # Installing Proxmox VE and Setup Tutorial
 
