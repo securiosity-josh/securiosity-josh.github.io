@@ -150,7 +150,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://securiosity.co.uk"
+baseurl: "securiosity.co.uk"
 
 # ------------ The following options are not recommended to be modified ------------------
 
