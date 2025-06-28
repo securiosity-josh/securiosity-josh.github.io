@@ -2,8 +2,8 @@
 layout: post
 title: "How to install and setup Proxmox VE"
 date: 2025-06-28 09:00:00 -0500
-categories: virtualisation
-tags: virtualisation self-hosted proxmox
+# categories: virtualisation
+# tags: virtualisation self-hosted proxmox
 image:
   path: /assets/img/headers/proxmox.webp
 ---
