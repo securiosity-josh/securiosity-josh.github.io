@@ -4,7 +4,7 @@ date: 2025-10-27 08:00:00 +0000
 categories: [Microsoft365, Administration]
 tags: [intune, microsoft, deployment]     # TAG names should always be lowercase
 image:
-  path: /assets/img/headers/proxmox.webp
+  path: /assets/img/headers/pdm.webp
 ---
 
 # Deploying SolidWorks PDM via Intune
